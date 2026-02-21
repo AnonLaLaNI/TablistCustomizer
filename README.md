@@ -47,7 +47,3 @@ Replace them with your real LuckPerms group names.
 ```bash
 mvn package
 ```
-
-Output:
-
-`target/TablistCustomizer-1.0.0.jar`
