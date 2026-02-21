@@ -4,7 +4,7 @@
 
 A configurable tablist plugin for **Paper 1.21.x** with **LuckPerms** support.
 
-Created for: **AnonLaLaNI**
+Created by: **AnonLaLaNI**
 
 ## Features
 
