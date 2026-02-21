@@ -1,0 +1,40 @@
+# TablistCustomizer - Paper 1.21.x
+# Uses LuckPerms prefixes directly so custom icon prefixes (resource-pack glyphs) are shown.
+
+update-interval-ticks: 40
+respect-luckperms-meta: true
+sort-by-group-weight: true
+
+header:
+  - "<gray>━━━━━━━━━━━━━━━━━━━━"
+  - "<gold><bold> Your Network."
+  - "<gray>Willkommen, <white>%player%"
+  - "<gray>━━━━━━━━━━━━━━━━━━━━"
+
+footer:
+  - "<gray>Rang: <white>%group%"
+  - "<gray>Online: <white>%online%<gray>/<white>%max_players%"
+
+default:
+  tab-format: "%lp_prefix% <white>%player%"
+  priority: 0
+
+# Replace these keys with your real LuckPerms group names.
+# Example: owner, admin, moderator, vip, default
+# If a player's group is not listed here, the default section is used.
+groups:
+  group_1:
+    tab-format: "%lp_prefix% <white>%player%"
+    priority: 100
+  group_2:
+    tab-format: "%lp_prefix% <white>%player%"
+    priority: 75
+  group_3:
+    tab-format: "%lp_prefix% <white>%player%"
+    priority: 50
+  group_4:
+    tab-format: "%lp_prefix% <white>%player%"
+    priority: 25
+  group_5:
+    tab-format: "%lp_prefix% <white>%player%"
+    priority: 0
